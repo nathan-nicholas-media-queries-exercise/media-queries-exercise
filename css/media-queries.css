@@ -37,31 +37,30 @@ main h1 {
     letter-spacing: 3px;
 }
 
-/*.nav-links {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*}*/
+.nav-links {
+    display: flex;
+    flex-direction: column;
+}
 
+ul {
+    padding-left: 0;
+}
 
-/*ul {*/
-/*    padding-left: 0;*/
-/*}*/
+li {
+    list-style-type: none;
+    margin: .5em 0;
+}
 
-/*li {*/
-/*    list-style-type: none;*/
-/*    margin: .5em 0;*/
-/*}*/
-
-/*li a {*/
-/*    display: inline-block;*/
-/*    background-color: lightgray;*/
-/*    padding: 1em;*/
-/*    width: calc(100% - 30px);*/
-/*    text-align: center;*/
-/*    color: royalblue;*/
-/*    font-weight: 600;*/
-/*    letter-spacing: 1px;*/
-/*}*/
+li a {
+    display: inline-block;
+    background-color: lightgray;
+    padding: 1em;
+    width: calc(100% - 30px);
+    text-align: center;
+    color: royalblue;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
 
 /*.header-img {*/
 /*    display: block;*/
