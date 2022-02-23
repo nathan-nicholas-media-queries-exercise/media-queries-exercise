@@ -102,38 +102,132 @@ footer p {
     flex: auto;
 }
 
+
 /* screen sizes 700px and up */
 @media screen and (min-width:700px) {
 
     .hidden-on-desktop {
         display: none;
     }
-
-    .desktop-nav {
+    .desktop-nav{
+        /*border: 1px solid red;*/
         display: flex;
-        width: 100%;
-
     }
-
-    h1 {
+    .nav-links{
+        display: flex;
+        flex-direction: row;
         flex-basis: 20%;
 
     }
+    li a{
+        background-color: transparent;
+        justify-content: flex-end;
 
-    nav {
-        display: flex;
-        flex-basis: auto;
+    }
+   .desktop-nav h1{
+        /*border: 1px solid purple;*/
+        flex-basis: 80%;
+        padding: 0;
+       text-align: left;
     }
 
-    ul li{
-
-        list-style: none;
+    img{
+        padding-top: 1.5em;
+        width:890px;
+        height: 385px;
     }
 
-    ul {
-        display: flex;
-        flex-direction: column;
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*main{*/
+    /*    padding: 0em 0em;*/
+    /*}*/
+    /*main h1{*/
+    /*    text-align: left;*/
+    /*}*/
+    /*.desktop-nav{*/
+    /*    width: 100vw;*/
+    /*    display: flex;*/
+    /*}*/
+    /*h1{*/
+    /*    border: 1px solid blue;*/
+    /*    flex-basis: 60%;*/
+    /*}*/
+    /*nav{*/
+    /*    !*display: inline-block;*!*/
+    /*    border: 1px solid red;*/
+    /*    flex-basis: 40%;*/
+    /*    !*all: unset;*!*/
+    /*    display: inline;*/
+    /*}*/
+    /*img{*/
+    /*    width: 890px;*/
+    /*    height: 385px;*/
+    /*}*/
+    /*nav ul li{*/
+    /*    width: auto;*/
+
+    /*}*/
+
+    /*li a {*/
+    /*    background-color: transparent;*/
+    /*    width: auto; !*calc(100% - 30px);*!*/
+    /*    !*text-align: right;*!*/
+    /*    color: royalblue;*/
+    /*    font-weight: 600;*/
+    /*    letter-spacing: 1px;*/
+    /*    !*border: 2px solid purple;*!*/
+    /*}*/
+
+    /*.desktop-nav {*/
+    /*    display: flex;*/
+    /*    width: 100%;*/
+
+    /*}*/
+
+    /*h1 {*/
+    /*    flex-basis: 20%;*/
+
+    /*}*/
+
+    /*nav {*/
+    /*    display: flex;*/
+    /*    flex-basis: auto;*/
+    /*}*/
+
+    /*ul li{*/
+
+    /*    list-style: none;*/
+    /*}*/
+
+    /*ul {*/
+    /*    display: flex;*/
+    /*    flex-direction: column;*/
+    /*}*/
 }
 
 
