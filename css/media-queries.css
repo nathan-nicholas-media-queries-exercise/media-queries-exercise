@@ -30,7 +30,7 @@ main {
 }
 
 main h1 {
-    font-size: 45px;
+    font-size: 15vw;
     text-align: center;
     padding-top: .25em;
     padding-bottom: .5em;
@@ -70,7 +70,7 @@ li a {
 }
 
 img {
-    width: 330px;
+    width: 95vw;
     height: 224px;
     margin: 0 auto;
     padding-top: .8em;
@@ -131,7 +131,9 @@ footer p {
         flex-basis: 80%;
         padding: 0;
        text-align: left;
-    }
+       font-size: 45px;
+
+   }
 
     /*<!-----  DESKTOP  Img DIV   ----->*/
 
@@ -141,11 +143,56 @@ footer p {
     }
     img{
         padding-top: 0;
-        width:890px;
+        width: 95vw;
         height: 385px;
     }
 
     /*<!-----  paragraphs  ----->*/
+
+    div:nth-child(4){
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 1.2em;
+        padding-bottom: 15em;
+    }
+    .main{
+        padding:0;
+    }
+    .main, .sub-section{
+        padding: 0 1.5em;
+    }
+    h2{
+        padding-bottom: 1em;
+
+    }
+    .sub-section h2{
+        font-style: italic;
+
+    }
+    footer{
+        padding-bottom: 8em;
+        width: 95vw;
+    }
+    footer div{
+        margin-right: 0;
+        display: flex;
+        justify-content: end;
+    }
+    i{
+        padding: 1em;
+    }
+
+    /*div:nth-child(4) section{*/
+    /*    flex-direction: row;*/
+    /*    margin: 2em;*/
+    /*}*/
+    /*.main{*/
+    /*    flex-basis: 70%;*/
+    /*}*/
+    /*.sub-section{*/
+    /*    flex-basis: 30%;*/
+    /*}*/
 
 
 
