@@ -57,7 +57,7 @@ li a {
     padding: 1em;
     width: calc(100% - 30px);
     text-align: center;
-    color: royalblue;
+    color: blue;
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -112,6 +112,7 @@ footer p {
     .desktop-nav{
         /*border: 1px solid red;*/
         display: flex;
+        padding-top: 1.2em;
     }
     .nav-links{
         display: flex;
@@ -122,6 +123,7 @@ footer p {
     li a{
         background-color: transparent;
         justify-content: flex-end;
+        font-weight: 400;
 
     }
    .desktop-nav h1{
@@ -131,13 +133,19 @@ footer p {
        text-align: left;
     }
 
+    /*<!-----  DESKTOP  Img DIV   ----->*/
+
+    .header-img{
+        display: flex;
+        padding: 1.5em 0;
+    }
     img{
-        padding-top: 1.5em;
+        padding-top: 0;
         width:890px;
         height: 385px;
     }
 
-
+    /*<!-----  paragraphs  ----->*/
 
 
 
