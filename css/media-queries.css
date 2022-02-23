@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+main {
+    font-family: sans-serif;
+    padding: 1em 1em;
+}
+
+main h1 {
+    font-size: 45px;
+    text-align: center;
+    padding-top: .25em;
+    padding-bottom: .5em;
+    letter-spacing: 3px;
+}
+
+.alert-info {
+    display: flex;
+    border: 1px solid lightgray;
+    background-color: #ccfffe;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    justify-content: center;
+
+
+}
+
+.alert-info a {
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+}
+
